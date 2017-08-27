@@ -1,0 +1,1 @@
+export const FETCH_WIKI = 'fetch_wiki'
