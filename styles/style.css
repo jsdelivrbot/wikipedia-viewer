@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .col-xs-12 {
   text-align: center;
@@ -6,21 +7,28 @@
 
 html,
 body {
-  font-family: 'Lato', 'san-serif';
+  font-family: 'Montserrat', sans-serif;
+  color: #151515;
 }
 
 h1 {
+  font-family: 'Cormorant Garamond', serif;
   margin-bottom: 30px;
   text-align: center;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .container {
   position: relative;
-  margin-top: 175px;
+  margin-top: 150px;
+}
+
+form {
+  display: none;
 }
 
 .wiki-input {
-  display: none;
   margin: 0 auto;
   padding: 10px 10px 10px 20px;
   border: solid 1px #dcdcdc;
@@ -46,16 +54,36 @@ h1 {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
 }
 
 li {
-  border: 1px solid black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border: 0.2px solid #d3d3d3;
   margin-bottom: 10px;
   padding: 15px;
 }
 
+li:hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
 li a,
-li a:hover {
+li a:hover,
+li a:active,
+li a:link {
+  color: #151515;
   text-decoration: none;
   cursor: pointer;
+}
+
+.back-button a:hover {
+  opacity: 0.6;
 }
