@@ -13,10 +13,14 @@ body {
 
 h1 {
   font-family: 'Cormorant Garamond', serif;
-  margin-bottom: 30px;
-  text-align: center;
   font-size: 48px;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .container {

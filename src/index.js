@@ -13,7 +13,8 @@ const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore)
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <div>
-      <h1>Wikipedia Search</h1>
+      <h1 className="text-xs-center">Wikipedia Search</h1>
+      <h2 className="text-xs-center">Search for any Wikipedia article</h2>
       <App />
     </div>
   </Provider>
